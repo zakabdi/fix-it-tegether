@@ -14,16 +14,18 @@ function Header(props) {
             <nav className="nav">
 
             
-            <a  href="www.facebook.com" className="logo"> &#9776;</a>
+            <a  href="http://localhost:3000/" className="logo"> &#9776;</a>
            
-            <ul>
-                <li> <Link to="/">Home </Link> </li>
+            <ul className='ul'>
+                <li className='li'> <Link to="/">Home </Link> </li>
 
-                <li> <Link to="/About"> About </Link></li>
+                <li className='li'> <Link to="/About"> About </Link></li>
 
-                <li> <Link to="/Contact">Contact </Link></li>
+                <li className='li'> <Link to="/Contact">Contact </Link></li>
 
-                <li> <Link to="/Blog"> books</Link> </li>
+                <li className='li'> <Link to="/Login"> login</Link> </li>
+
+                
             </ul>
 
          
@@ -31,11 +33,8 @@ function Header(props) {
 
             </nav>
 
-
+               
         
-        
-         
-
 
         </div>
     )

@@ -1,0 +1,83 @@
+.main-Contact{
+    display: flex;
+    margin: 0 200px;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+.contact{
+    display: inline;
+    background-color: #322081;
+    width: 350px;
+    height: 470px;
+    color: #fff;
+ align-items: flex-start;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-form{
+background-color: #fff;
+width: 480px;
+}
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+display:inline;
+justify-content: space-around;
+font-size: 18px;
+}
+.contact-form button{
+    width: 80px;
+}
+.contact a{
+    margin-top: 50px;
+}
+.message{
+    height: 100px;
+}
+.contact-form input{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 0;
+    align-items: flex-start;
+    border-color: #322081;
+    width: 450px;
+}
+.contact-form input:focus{
+border-color: red;
+}
+::-webkit-input-placeholder{
+    color: #322081;
+   text-align:justify;
+}
+.contact-form h2{
+    color:#322081 ;
+}
+/* Responsive */
+@media(max-width: 570px){
+.main-Contact{
+    margin: 10px;
+}
+.contact-form input{
+    width: 200px;
+}
+.contact{
+    width: 250px;
+}
+.contact-form{
+    width: 180px;
+}
+.contact a{
+    margin-top: 20px;
+    display: inline;
+}
+}
+
+
+
+
+
+

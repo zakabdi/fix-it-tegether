@@ -3,13 +3,15 @@
 import React, { useState } from 'react';
 
 import Header from "./Header";
-import Cat from "./Cat";
+
 import Footer from "./Footer";
 import { Route, Link, Switch } from "react-router-dom";
+import Home from "../pages/Home"
 import Contact from '../pages/Contact';
-import Blog from '../pages/Blog';
+import Login from '../pages/Login';
 import About from '../pages/About';
 import data from "../data.js"
+import SignUp from '../pages/SignUp';
 
 
 function Body() {
@@ -30,8 +32,12 @@ function Body() {
         </Route>
 
 
-        <Route path="/Blog">
-            <Blog dataprops={books}/>
+        <Route path="/Login">
+            <Login />
+        </Route>
+
+        <Route path="/SignUp">
+            <SignUp />
         </Route>
 
         <Route path="/About">
@@ -39,7 +45,7 @@ function Body() {
         </Route>
 
         <Route path="/">
-           <Cat/>
+           <Home />
         </Route>
 
         

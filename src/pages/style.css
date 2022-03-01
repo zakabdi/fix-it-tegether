@@ -1,0 +1,198 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .terms {
+    display: inline-block;
+    align-self: self-start;
+  }
+  input {
+    width: 260px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-color: #322081;
+    font-weight: bold;
+    outline: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    margin-right: 13px;
+  }
+  input:focus {
+    outline: none;
+    border-color: red ;
+  }
+  .errors {
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  .already{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+.form{
+    width: 50%;
+    margin-left:25% ;
+    -webkit-box-shadow: 0 15px 30px rgba(5, 5, 5, 0.3);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 13px;
+    border-style:outset;
+    margin-bottom: 30px;
+  }
+  .form .col{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  button {
+     text-decoration: none;
+    position: relative;
+    float: right;
+    width: 450px;
+    height: 45px;
+    border-radius: 5px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: #322081;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+  .already{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 10px;
+  }
+  .already .Link{
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 14px;
+  }
+  .already p{
+    font-size: 15px;
+    margin-right: 8px;
+  }
+  .signIn{
+      background-color: #fff;
+      color: #0E0D0D;
+  }
+  .contact{
+    display: flex;
+  }
+  button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.12),
+      0 2px 3px 2px rgba(0, 0, 0, 0.24);
+    background: #D3FF3A;
+    color: #0E0D0D;
+  }
+  .terms {
+    display: inline-block;
+    align-self: self-start;
+  }
+  .terms input {
+    width: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top:-10px ;
+  }
+  textarea{
+    width: 40%;
+    height: 30px;
+  }
+/* Social-Media */
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: #EB3223;
+  }
+  a.facebook {
+    color: #4968AD;
+  }
+  a.twitter {
+    color: #49A1EB;
+  }
+  a.instagram {
+    color: black;
+  }
+  /* FOOTER */
+.main-Footer{
+background-color: #fff;
+border-top: 1px solid #322081;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.col p{
+    color: #322081;
+    font-size: 15px;
+}
+.col-2{
+    margin-top: 13px;
+}
+/* RESPONSIVE */
+  @media(max-width: 813px){
+    .form{
+        width: 250px;
+        margin-left: 10%;
+      }
+      form .col{
+display: flex;
+flex-direction: column;
+      }
+      .form input{
+        width: 150px;
+      }
+      button{
+        width: 200px;
+      }
+  }
+  @media(max-width: 570px){
+      .form{
+        width: 300px;
+    margin-right: 10px;
+      }
+      input{
+    width: 200px;
+      }
+      button{
+        width: 180px;
+      }
+      .row{
+        display: inline;
+    }
+  }
+  i {
+    font-size: 12px;
+  }

@@ -1,0 +1,45 @@
+
+main{
+    
+    width: 82%;
+    height: 20rem;
+    margin: auto;
+}
+
+
+.container{
+   display: flex; 
+   align-items: center;
+   
+}
+.container h1{
+    text-align: center;
+}
+
+.content{
+width: 100%;
+
+
+}
+
+.images img{
+width: 100%;}
+
+.description{
+
+font-family: 'Poppins', sans-serif;
+line-height: 2.5rem;
+font-size: 18px;
+
+}
+ .button{
+    background: #322081;
+    border: none;
+    border-radius: 2px;
+   padding-left:20px ;
+   line-height:50px ;
+   padding-right:20px ;
+   color: white;
+
+}
+
