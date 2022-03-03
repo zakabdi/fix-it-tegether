@@ -21,7 +21,7 @@ const signIn = () => {
               <p>I Don't Have an Account</p>
             <Link to="SignUp" className='Link' >Register</Link>
             </div>
-            </form>
+            
             <div className='col-2'>
     <a href='youtube.com' className="youtube social"
       >
@@ -43,6 +43,7 @@ const signIn = () => {
         <FontAwesomeIcon icon={faGithub} size="1.5x" />
       </a>
         </div>
+        </form>
         </div>
     )
 }

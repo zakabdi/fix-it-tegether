@@ -52,7 +52,7 @@ function Body() {
 
         </Switch>
 
-           <Footer />
+        <Footer />
             
         
 
