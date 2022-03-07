@@ -23,7 +23,7 @@ function Home() {
       might just be able to fix it ourselves.
         </p>
        
-        <ul> <li> <Link to="/SignUp" className="button"> SignUP</Link> </li></ul>
+      <li> <Link to="/SignUp" className="button"> SignUp</Link> </li>
         </div>
 
 <div className="images">
